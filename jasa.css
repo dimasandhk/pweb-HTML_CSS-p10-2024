@@ -1,0 +1,69 @@
+.jasa {
+    padding: 70px 30px;
+    background: url('./img/bg-jasa.png');
+    background-size: cover;
+}
+
+.atas h3 {
+    font-size: 40px;
+    text-align: center;
+    color: white;
+}
+
+.atas span {
+    color: #ffe500;
+    text-decoration: underline;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+.ala-span {
+    font-weight: bolder;
+    text-decoration: underline;
+    font-style: italic;
+    font-size: 28px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    gap: 0 50px;
+}
+
+.card {
+    width: 330px;
+    border-radius: 42px;
+    padding: 30px 20px;
+}
+
+.card-biru {
+    background-color: #0582d2;
+    color: #ffe500;
+    text-align: center;
+}
+
+.card-kuning {
+    background-color: #ffe500;
+    color: #0582d2;
+    text-align: center;
+}
+
+.card p {
+    margin-top: 20px;
+}
+
+@media (max-width: 1470px) {
+    .card:nth-child(4) {
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 710px) {
+    .card {
+        margin-top: 30px;
+    }
+}

@@ -5,4 +5,55 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    padding-top: 200px;
+    padding-left: 100px;
+}
+
+.hero h1 {
+    text-transform: capitalize;
+    color: white;
+    font-size: 77px;
+}
+
+.hero h1:nth-child(1) {
+    margin-top: 30px;
+}
+
+.hero h1:nth-child(2) {
+    margin-top: -20px;
+}
+
+.hero button {
+    padding: 10px 30px;
+    background-color: #ffe500;
+    border: none;
+    border-radius: 20px;
+    color: #333;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.hero h1 span {
+    text-decoration: underline;
+    font-style: italic;
+    font-weight: bolder;
+    color: #ffe500;
+    text-transform: uppercase;
+}
+
+@media (max-width: 768px) {
+    .hero h1:nth-child(2) {
+        margin-top: 0;
+    }
+    .hero {
+        padding-top: 300px;
+        padding-left: 40px;
+    }
+    .hero h1 {
+        font-size: 30px;
+    }
+    .hero button {
+        margin-top: 50px;
+    }
 }

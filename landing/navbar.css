@@ -2,12 +2,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: none;
+    background-color: rgba(66, 66, 66, 0.3);
     padding: 70px 130px;
     position: fixed;
     width: 100%;
-    top: 0;
-    left: 0;
+    /* margin: 20px; */
     z-index: 100;
     height: 70px;
 }
@@ -51,11 +50,9 @@
 /* !Menu mobile */
 .menu-container {
     position: fixed;
-    right: 0;
-    top: 70px;
-    height: calc(100vh - 70px);
+    height: 100vh;
     width: 100%;
-    background-color: #333;
+    background-color: rgba(66, 66, 66, 0.7);
     transform: translateX(100%);
     transition: transform 0.3s ease;
     z-index: 50;
@@ -68,7 +65,7 @@
     transform: translateX(0);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 968px) {
     .navbar {
         padding: 70px 40px;
     }

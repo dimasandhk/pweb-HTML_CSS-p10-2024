@@ -3,7 +3,7 @@
 	padding-bottom: 30px;
     padding-left: 87px;
     padding-right: 87px;
-	background: url('./img/bg-footer.png');
+	background: url('../img/bg-footer.png');
 	background-size: cover;
 	background-position: top center;
 }

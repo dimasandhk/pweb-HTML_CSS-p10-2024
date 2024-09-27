@@ -1,0 +1,172 @@
+.testi {
+    padding-top: 70px;
+	padding-bottom: 30px;
+    padding-left: 87px;
+    padding-right: 87px;
+	background: url('./img/bg-footer.png');
+	background-size: cover;
+	background-position: top center;
+}
+
+.testi .atas {
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    font-weight: 500;
+    text-shadow: rgba(0, 0, 0, 0.45) 0 4px 15px;
+}
+
+.container-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0 50px;
+    margin-top: 40px;
+}
+
+.testi .nunjuk-testi {
+    width: 100%;
+    height: auto;
+    max-width: 85%;
+}
+
+.boks-testimoni {
+    background-color: #59b5e4;
+    padding: 50px;
+    border-radius: 20px;
+}
+
+.boks-testimoni h3 {
+    color: white;
+    font-size: 31px;
+}
+
+.boks-testimoni h1 {
+    color: #ffe500;
+    font-weight: 800;
+    text-decoration: underline;
+    font-style: italic;
+    font-size: 65px;
+}
+
+.container-ril-box {
+    margin-top: 50px;
+    gap: 0 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.ril-box-testi {
+    width: 650px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    padding: 30px 30px;
+    gap: 0 20px;
+}
+
+.ril-box-testi img {
+    max-width: 40%;
+    height: auto;
+    /* border-radius: 20px; */
+}
+
+.teks-testi p:nth-child(2) {
+    margin-top: 30px;
+    font-weight: bolder;
+}
+
+.calltoaction {
+    margin-top: 40px;
+    color: white;
+    text-align: center;
+}
+
+.calltoaction h3 {
+    font-size: 30px;
+}
+
+.calltoaction p {
+    margin-top: 20px;
+}
+
+.calltoaction p:nth-child(2) {
+    margin-bottom: 20px;
+}
+
+.calltoaction a {
+    color: white;
+    text-decoration: none;
+}
+
+.calltoaction a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 535px) {
+    .testi .nunjuk-testi {
+        max-width: none;
+        width: 140%;
+    }
+
+    .testi {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .container-img {
+        padding-left: 87px;
+        padding-right: 87px;
+    }
+
+    .testi .atas {
+        font-size: 18px !important;
+        padding-left: 28px;
+        padding-right: 28px;
+    }
+}
+
+@media (max-width: 968px) {
+    .testi .atas {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .testi .atas {
+        font-size: 24px;
+    }
+
+    .ril-box-testi {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .ril-box-testi img {
+        max-width: 80%;
+    }
+
+    .ril-box-testi p {
+        margin-top: 20px;
+    }
+
+    .calltoaction {
+        padding: 0 20px;
+    }
+
+    .calltoaction h3 {
+        font-size: 22px;
+    }
+
+    .calltoaction p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 1574px) {
+    .container-ril-box {
+        gap: 30px 0;
+    }
+}

@@ -1,0 +1,92 @@
+.populer {
+    padding: 70px 94px;
+    background-color: #f4f4f4;
+}
+
+.populer h2 {
+    font-size: 40px;
+    color: #2c3290;
+}
+
+.pop-container {
+    margin-top: 40px;
+}
+
+.pcard {
+    padding: 30px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    border-radius: 15px;
+    margin-top: 30px;
+}
+
+.judul {
+    padding-left: 30px;
+}
+
+.harga {
+    padding: 0 50px;
+}
+
+.pcard button {
+    background-color: #3ab8ff;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 15px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.bli {
+    padding-left: 100px;
+}
+
+.pcard h3 {
+    font-size: 21px;
+}
+
+.pcard .judul p {
+    margin-top: 20px;
+}
+
+.pcard img {
+    border-radius: 15px;
+    max-width: 15%;
+}
+
+@media (max-width: 1096px) {
+    .harga p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 986px) {
+    .populer {
+        padding: 70px 40px;
+    }
+
+    .pop-container {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .pcard {
+        text-align: center;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .harga {
+        padding: 0;
+    }
+
+    .bli {
+        padding-left: 0;
+    }
+
+    .pcard img {
+        max-width: 100%;
+    }
+}

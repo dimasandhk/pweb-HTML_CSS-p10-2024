@@ -1,0 +1,70 @@
+.about {
+    padding-top: 140px;
+}
+
+.ja {
+    text-align: center;
+    padding: 20px 0;
+    color: #2D3190;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 4px 20px 0px;
+}
+
+.kotak-kebijakan {
+    border-radius: 15px;
+    margin: 30px 185px;
+    padding: 50px;
+    background-color: white;
+}
+
+.awal {
+    text-align: center;
+}
+
+.awal h2 {
+    font-size: 32px;
+}
+
+.about img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+    margin: 30px 0;
+}
+
+.awal p {
+    margin-top: 12px;
+    font-size: 16px;
+    color: #A1A5B7;
+}
+
+.konten {
+    color: #424242;
+}
+
+.konten h1 {
+    margin-bottom: 5px;
+}
+
+.konten p {
+    margin-bottom: 15px;
+}
+
+.b {
+    font-weight: bolder;
+}
+
+@media (max-width: 968px) {
+    .kotak-kebijakan {
+        margin: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .konten h1 {
+        font-size: 24px;
+    }
+
+    .konten p {
+        font-size: 14px;
+    }
+}

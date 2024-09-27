@@ -1,0 +1,35 @@
+.ft-container {
+    background-color: black;
+    color: white;
+    padding: 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.footer-links {
+    display: flex;
+    gap: 10px;
+}
+
+@media (max-width: 768px) {
+    .ft-container {
+        text-align: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .footer-links {
+        margin-top: 20px;
+    }
+}
